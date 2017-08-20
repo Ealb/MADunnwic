@@ -1,0 +1,112 @@
+Nation 100: Dunnwic
+-----------------------------------
+Race: Humans and hybrids
+Military: Light and medium infantry. Longbowmen. Sacred light dreamers. Coastal hybrids.
+Magic: Air, Water, and Astral. Some nature and death.
+Priests: Moderate
+-----------------------------------
+
+Troops:
+- Militia:
+** Dunnish Piscator, 8g, 6r, Trident, Net, Leather Hauberk, Leather Cap.
+--- Militia skirmisher (Swamp) -sailing, swamp survival, pooramphibian
+** Dunnish Mariner, 8g, 5r, Hatchet, Harpoon, Leather Hauberk, Leather Cap.
+--- Miltia skrimisher (Coastal) -sailing, pooramphibian
+** Hybrid Militia, 8g, 2r (Montag)
+--- Militia infantry
+** Dunnish Militia, 7g, 6r, Spear, Shield, Leather Hauberk, Leather Cap.
+--- Militia infantry
+
+- Regulars:
+** Dunnish Rover, 9g, 9r, Falchion, Short Bow, Leather Hauberk, Leather Cap.
+--- Archer (Swamp) - stealth, swamp survival, sailing, pooramphibian
+** Dunnish Vagabond, 10g, 6r, Hatchet, Short Bow, Leather Hauberk.
+--- Archer (Foreign-but-needs-Dunnish-Wise-Man) - stealth, swamp survival, forest survival
+** Hybrid Guard, 13g, 7r, Spear, Shield, Ring Mail Cuirass, Leather Cap.
+--- Infantry
+** Hybrid Marine, 14g, 20r, Pike, Plate Cuirass, Iron Cap.
+--- Infantry (Coastal)
+** Hybrid Yeoman, 40g, 2r, Mindblast, Dagger, Leather Cuirass, Leather Cap.
+--- Archer (Coastal-but-needs-Unsleeping Dreamer) - magicbeing
+** Dunnish Freeman, 10g, 14r, Longspear, Shield, Full Ring Mail, Iron Cap.
+--- Infantry
+** Dunnish Yeoman, 12g, 7r, Longbow, Dagger, Ring Mail Cuirass, Leather Cap.
+--- Archer
+
+- Cavalry:
+** Dunnish Man-at-Arms, 30g, 18r, Light Lance, Hoof, Shield, Full Ring Mail, Iron Cap.
+--- Medium Cavalry
+
+- Sacreds: -magicstrength?
+** Stirring Dreamer, 10g, 4r, Trident, Robes, Leather Hood.
+--- Sacred Infantry, pooramphibian
+** Waking Dreamer, 14g, 4r, Meteorite Trident, Robes, Leather Hood.
+--- Sacred Infantry (Capital) - magicbeing
+
+Commanders:
+- Scouts:
+** Dunnish Fenwarden, 40g, 6r, Hatchet, Dagger, Short Bow, Leather Hauberk, Leather Cap.
+--- Scout, poorleader, swamp survival
+** Hybrid Mariner, 70g, 6r, Mindblast, Falchion, Robes, Leather Hood.
+--- Spy (Capital) - Sailing 20(2), poorleader, 10 magicldr
+** Hybrid Captain, 60g, 8r, Mindblast, Falchion, Plate Cuirass, Iron Cap.
+--- Infantry Commander - Sailing 120(2), 40 + 20 ldr, 20 magicldr
+** Dunnish Squire, 40g, 18r, Light Lance, Hoof, Shield, Full Ring Mail, Iron Cap.
+--- Medium Cavalry - 40 ldr
+** Dunnish Knight, 60g, 32r, Lance, Falchion, Hoof, Plate Cuirass, Half Helmet, Shield.
+--- Cavalry Commander - 40 + 40 ldr
+
+- Priests:
+** Dreaming Cultist, 60g, 2r, Mindblast, Dagger, Robes.
+--- 1H. - recruit hybrid militia montag? Possibly can only recruit if present?
+** Unsleeping Dreamer, 90g, 2r, Mindblast, Quarterstaff, Robes.
+--- 2H 0.5? (astral). (Capital) - old, StR, +research, domsummon hybrid militia or dreamers?
+
+- Mages:
+** Dunnish Stargazer, 40g, 2r, Dagger, Robes.
+--- 1S. -pooramphibian
+** Oneiric Pilot, 75g, 2r, Mindblast, Dagger, Robes.
+--- 1A1S. (Coastal) - Sailing 20(2)
+** Dunnish Wise Man, 90g, 2r, Quarterstaff, Leather Hauberk.
+--- 1W 1? (air, water, nature, death). (Foreign) - Old, inept, swamp survival, forest survival
+** Oneiric Navigator, 125g, 2r, Mindblast, Dagger, Robes.
+--- 2A1S 0.1? (astral, air, water). (Coastal) - Sailing 40(2)
+** Oneiric Astrologer, 200g, 2r, Mindblast, Dagger, Robes.
+--- 2A2S 1? (astral, air, water). (Capital) - old, Sailing 40(2)
+
+Heroes:
+** Eva the Heartless, Dagger, Robes.
+--- 1A1W1N1D.
+--- As for 1774, but not sacred, maxage 2000, no misc, and immortal
+** Ak'yoghoab the Faithless, Mindblast, Lifedrain, Robes.
+--- 1W3S3D.
+--- As for 332, but undead, with Blackened Heart, incunrest, heretic, incscale Misfortune, slime?
+
+Province defence:
+* Commander 1: Dunnish Squire
+* Commander 2: Dreaming Cultist
+* Troop 1a: Dunnish Militia - 15 per 10 PD
+* Troop 1b: Dunnish Freemen - 10 per 10 PD
+* Troop 2a: Hybrid Miltia - 15 per 10 PD (as a montag)
+* Troop 2b: Dunnish Yeoman - 10 per 10 PD
+
+Montag units:
+--------------
+
+National spells:
+--------------
+Impress Crew
+Call the Drowned
+Disinter Bog Wight?
+
+Events:
+--------------
+Scheming Wise Man rebellion
+Questing Knight invasion
+Slave Prince leads raid
+Freebooting Mariner invades Man
+Cultist invades R'lyeh
+Old faith corrupts dominion
+Cultists undermine R'lyeh dominion
+Refugees from R'lyeh
+Faithless appears UW
