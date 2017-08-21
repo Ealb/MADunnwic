@@ -116,7 +116,7 @@
 #pooramphibian
 #sailing 2 2
 #nametype 117
-#descr "TO-DO - Swamp recruit that doesn't count against sailing cap"
+#descr "Dunnwic is mostly comprised of boggy coastlines. The peasantry in these areas are skilled fishers and sailors even if there are few trained warriors among them. When pressed into service, they can act as skirmishers and sea raiders.  In recent years, these fiercely independent folk have become more secretive and reclusive, and many have a clammy, sickly palor."
 #weapon 3 ---  / Trident
 #weapon 263 ---  / Net
 #armor 10 --- / Leather Hauberk
@@ -143,7 +143,7 @@
 #pooramphibian
 #sailing 2 2
 #nametype 117
-#descr "TO-DO - Coastal fort recruit that doesn't count against sailing cap"
+#descr "Dunnwic is mostly comprised of boggy coastlines. The many small villages by the sea provide it with ample sailors in times of war. In recent years, seafaring clans have began to take on a look distinct from their landbound brethern."
 #weapon 253 ---  / Hatchet
 #weapon 452 ---  / Harpoon
 #armor 10 --- / Leather Hauberk
@@ -159,7 +159,7 @@
 #firstshape -42421  --- Hybrids
 #monpresentrec -42425
 #nametype 117
-#descr "TO-DO - random hybrid; recuitable if some national priest is present"
+#descr "The lesser hybrids of Dunnwic make up a social class below even the serfs of the old kingdom. Despised and degenerate, they are reluctant to die for their betters, and are unlikely to willing march to war unless whipped into a religious frenzy by priests of the Dream Cult."
 #end
 
 #newmonster 3004
@@ -180,7 +180,7 @@
 #ap 11
 #maxage 50
 #nametype 102
-#descr "TO-DO"
+#descr "Once the lowest strata of Dunnish society and little better than slaves, the serfs of Dunnwic have eagerly embraced the new order. Still bound to their lord and land, they none the less rank above the lesser hybrids and enjoy more rights than them. In times of war, they fight in quickly-levied militia bands with more enthusiasm than skill."
 #weapon 1 ---  / Spear
 #armor 10 --- / Leather Hauberk
 #armor 120 --- / Leather Cap
@@ -209,7 +209,7 @@
 #pooramphibian
 #sailing 2 2
 #nametype 117
-#descr "TO-DO - Swamp recruit that doesn't count against sailing cap"
+#descr "Dunnwic is mostly comprised of boggy coastlines. The peasantry in these areas are skilled fishers and sailors even if there are few trained warriors among them. When pressed into service, they can act as skirmishers and sea raiders.  In recent years, these fiercely independent folk have become more secretive and reclusive, and many have a clammy, sickly palor."
 #weapon 10 ---  / Falchion
 #weapon 23 ---  / Short Bow
 #armor 10 --- / Leather Hauberk
@@ -239,7 +239,7 @@
 #stealthy 0
 #monpresentrec 3024
 #nametype 102
-#descr "TO-DO - Foreign recruit; recuitable if Wise Man is present"
+#descr "The people of Dunnwic's larger settlements have embraced the new order, but in the more remote villages there remain those who remember the old ways and reject the new inhuman lords. In times of war, however, they will fight for the new lords if their village elders can be convinced to swear fealty. While unskilled in conventional tactics, they excel at woodcraft and ambush."
 #weapon 253 ---  / Hatchet
 #weapon 23 ---  / Short Bow
 #armor 10 --- / Leather Hauberk
@@ -266,7 +266,7 @@
 #amphibian
 #poormagicleader
 #nametype 117
-#descr "TO-DO - Coastal fort recruit"
+#descr "Lesser hybrids make up the lowest social strata in Dunnwic, but those who serve in its home guard enjoy a far higher status. They are equipped with bronze arms and patrol the coasts both above and below the waves."
 #weapon 643 ---  / Bronze Spear
 #weapon 85 ---  / Tentacle
 #armor 6 --- / Ring Mail Cuirass
@@ -295,7 +295,7 @@
 #amphibian
 #poormagicleader
 #nametype 117
-#descr "TO-DO - Coastal fort recruit"
+#descr "When the star children usurped the Dunnish kingdom, they embraced its seafaring traditions. Star child captains ply its waters in merchant and war ships, guided by the stars and guarded by ranks of elite marines with boarding pikes held firmly in their betentacled hands."
 #weapon 2 ---  / Pike
 #armor 9 --- / Plate Cuirass
 #armor 20 --- / Iron Cap
@@ -327,7 +327,7 @@
 #poormagicleader
 #nametype 117
 #reclimit 5
-#descr "TO-DO - Cap only and rec limit 5"
+#descr "The Dreaming Cult has rigorously monitored the breeding of the Dunnish peoples. Among the hybrids, careful interbreeding has produced a growing number of star children despite generations without illithids. In recent years, their numbers have grown to the point where some few might be sent to war as soldiers rather than commanders."
 #weapon 311 ---  / Mindblast
 #weapon 9 ---  / Dagger
 #armor 5 --- / Leather Cuirass
@@ -823,7 +823,7 @@
 #researchbonus -4
 #nametype 102
 #prophetshape -42421
-#descr "TO-DO - Foreign rec; random hybrid prophetshape"
+#descr "The people of Dunnwic's larger settlements have embraced the new order, but in the more remote villages there remain those who remember the old ways and reject the new inhuman lords. These small settlements are usually presided over by an elder who keeps to the old traditions. They are skilled in hedge magics, but are set in their ways and unwilling to learn."
 #weapon 7 ---  / Quarterstaff
 #armor 10 --- / Leather Hauberk
 #end
@@ -1620,6 +1620,156 @@
 #armor 158 --- / Robes
 #end
 
+
+--- Pretenders
+
+#newmonster 3047
+#name "Calcified Grandmother"
+#spr1 "./MAdunnwic/grandmother_1.tga"
+#spr2 "./MAdunnwic/grandmother_2.tga"
+#gcost 10000
+#startdom 4
+#pathcost 40
+#hp 208
+#size 5
+#prot 24
+#mr 20
+#mor 30
+#str 15
+#att 5
+#def 0
+#prec 5
+#enc 0
+#mapmove 0
+#ap 2
+#maxage 20000
+#inn 1
+#eyes 0
+#blind
+#immobile
+#slashres
+#pierceres
+#inanimate
+#neednoteat
+#stonebeing
+#magicbeing
+#mindslime 10
+#voidret 100
+#voidsanity 20
+#deathparalyze 6
+#deathbanish -11
+#amphibian
+#noitem
+#poisonres 25
+#superiormagicleader
+#poorleader 
+#magicskill 4 3
+#nametype 117
+#descr "TO-DO"
+#weapon 86 ---  / Mind Blast
+#weapon 86 ---  / Mind Blast
+#weapon 86 ---  / Mind Blast
+#end
+
+#newmonster 3048
+#name "Ghost Out of Time"
+#copystats 1562
+#clearmagic
+#spr1 "./MAdunnwic/ghost_1.tga"
+#spr2 "./MAdunnwic/ghost_2.tga"
+#gcost 10000
+#startdom 2
+#pathcost 20
+#hp 32
+#mor 30
+#fear 10
+#magicskill 4 1
+#nametype 117
+#descr "TO-DO"
+#end
+
+#newmonster 3049
+#name "Sleepwalking Queen"
+#copystats 2085
+#clearmagic
+#clearweapons
+#spr1 "./MAdunnwic/ghost_1.tga"
+#spr2 "./MAdunnwic/ghost_2.tga"
+#gcost 10000
+#startdom 2
+#pathcost 20
+#mor 30
+#okmagicleader
+#blind
+#batstartsum2d6 1571
+#batstartsum1d6 1007
+#magicskill 2 1
+#magicskill 3 1
+#weapon 481 ---  / Touch of Madness
+#weapon 20 ---  / Bite
+#nametype 117
+#descr "TO-DO"
+#end
+
+
+--- Heroes
+
+#newmonster 3046
+#name "Heartless"
+#name "Eva"
+#spr1 "./MAdunnwic/heartless_1.tga"
+#spr2 "./MAdunnwic/heartless_2.tga"
+#gcost 0
+#hp 13
+#size 2
+#prot 0
+#mr 15
+#mor 14
+#str 12
+#att 12
+#def 14
+#prec 12
+#enc 2
+#mapmove 2
+#ap 13
+#maxage 2000
+#magicskill 1 1
+#magicskill 2 1
+#magicskill 5 1
+#magicskill 6 1
+#forestsurvival
+#swampsurvival
+#darkvision 50
+#female
+#noleader
+#illusion
+#immortal
+#stealthy 50
+#descr "TO-DO"
+#itemslots 3206
+#weapon 63 ---  / Life Drain
+#armor 158 --- / Robes
+#end
+
+#newmonster 3046
+#name "Faithless"
+#copystats 332
+#clearmagic
+#gcost 0
+#name "Ak'yoghoab"
+#spr1 "./MAdunnwic/heartless_1.tga"
+#spr2 "./MAdunnwic/heartless_2.tga"
+#magicskill 2 1
+#magicskill 4 3
+#magicskill 6 3
+#undead
+#incunrest 20
+#heretic 2
+#incscale 4
+#slime 5
+#descr "TO-DO"
+#armor 158 --- / Robes
+#end
 
 --- Adding montags to existing units
 --- 42421: generic hybrids
