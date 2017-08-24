@@ -352,7 +352,7 @@
 #ap 12
 #maxage 50
 #nametype 102
-#descr "TO-DO"
+#descr "Armed with long spears and wearing ring mail, the levied sons of smallholders and villagers form the bulk of Dunnwic's armies when they march to war."
 #weapon 28 ---  / Long Spear
 #armor 16 --- / Full Ring Mail
 #armor 20 --- / Iron Cap
@@ -377,11 +377,36 @@
 #ap 12
 #maxage 50
 #nametype 102
-#descr "TO-DO"
+#descr "Well-trained and disciplined, yeoman archers have long been a crucial part of Dunnwic's armies. They hail from a higher social class than other freemen, but are still levied rather than professional armsmen."
 #weapon 24 ---  / Long Bow
 #weapon 9 ---  / Dagger
 #armor 6 --- / Ring Mail Cuirass
 #armor 20 --- / Leather Cap
+#end
+
+#newmonster 3052
+#name "Dunnish Man-at-Arms"
+#spr1 "./MAdunnwic/footman_1.tga"
+#spr2 "./MAdunnwic/footman_2.tga"
+#gcost 12
+#hp 10
+#size 2
+#mor 11
+#mr 10
+#str 10
+#att 11
+#def 11
+#prec 10
+#enc 3
+#mapmove 2
+#ap 12
+#maxage 50
+#nametype 102
+#descr "The standing armies of the Dunnish lords consist of medium infantry and horsemen. While they are not seasoned veterans, most have seen some battle fighting brigands and raiders, or in border disputes between their masters."
+#weapon 10 ---  / Falchion
+#armor 16 --- / Full Ring Mail
+#armor 20 --- / Iron Cap
+#armor 2 --- / Shield
 #end
 
 #newmonster 3012
@@ -405,7 +430,7 @@
 #mounted
 #nametype 102
 #itemslots 13446
-#descr "TO-DO"
+#descr "The standing armies of the Dunnish lords consist of medium infantry and horsemen. While they are not seasoned veterans, most have seen some battle fighting brigands and raiders, or in border disputes between their masters."
 #weapon 357 ---  / Light Lance
 #weapon 56 ---  / Hoof
 #armor 16 --- / Full Ring Mail
@@ -499,9 +524,11 @@
 #maxage 50
 #nametype 102
 #prophetshape 3020
-#descr "TO-DO - random generic hybrid prophetshape"
+#descr "Dunnwic is a land of sleepy coasts, foggy moors, and dark forests. Its lords have long relied on deputized freemen to patrol its wilderness and keep some semblance of order. In times of war, these wardens are called to serve as scouts for Dunnish armies."
 #stealthy 10
+#patrolbonus 5
 #poorleader
+#forestsurvival
 #swampsurvival
 #weapon 253 ---  / Hatchet
 #weapon 9 ---  / Dagger
@@ -537,9 +564,10 @@
 #sailing 20 2
 #stealthy 25
 #spy
+#batstartsum1 3002
 #nametype 117
 #prophetshape 3027
-#descr "TO-DO - Cap-only spy; Assassin prophetshape boosts combat abilities and stealth at the cost of leadership"
+#descr "As Dunnwic's influence spread under its new masters, it became clear that there was a need to influence neighboring kingdoms. Particularly clever and independent star children are trained in the Invisible Lighthouse to act as spies and diplomats under the guise of merchant captains, although they are typically forced to rely heavily on their more human-looking lieutenants to allay foreign suspicions."
 #weapon 311 ---  / Mindblast
 #weapon 10 ---  / Falchion
 #armor 158 --- / Robes
@@ -575,7 +603,7 @@
 #sailing 120 2
 #nametype 117
 #prophetshape 3028
-#descr "TO-DO - Coastal fort recruit; Admiral prophetshape boosts leadership and sailing"
+#descr "The hybrid rulers of Dunnwic are its mage-lords, but those star children who are not talented at sorcery tend to the more worldly affairs of the realm. Even so, they have little interest beyond the coastline. They direct the nation's ports and ply its waves in small but sturdy watercraft."
 #weapon 311 ---  / Mindblast
 #weapon 10 ---  / Falchion
 #armor 9 --- / Plate Cuirass
@@ -605,7 +633,7 @@
 #nametype 102
 #itemslots 13446
 #prophetshape -42421
-#descr "TO-DO - random generic hybrid prophetshape"
+#descr "Dunnish lords once had many ranks and titles, but following the invasion from the sea only the lowest of the human nobility retain their former stature. Large estates and small towns are ruled by a squire who maintains a modest guard of men-at-arms. They are rarely inspiring or adept commanders."
 #weapon 357 ---  / Light Lance
 #weapon 56 ---  / Hoof
 #armor 16 --- / Full Ring Mail
@@ -638,7 +666,7 @@
 #nametype 102
 #itemslots 13446
 #prophetshape -42421
-#descr "TO-DO - random generic hybrid prophetshape"
+#descr "Dunnish lords once had many ranks and titles, but following the invasion from the sea only the lowest of the human nobility retain their former stature. Most knights rule towns outside the capital, and play leige to vassal squires. Heavily armored by Dunnish standards, they are capable if unexceptional commanders."
 #weapon 4 ---  / Lance
 #weapon 10 ---  / Falchion
 #weapon 56 ---  / Hoof
@@ -1624,10 +1652,10 @@
 --- Pretenders
 
 #newmonster 3047
-#name "Calcified Grandmother"
+#name "Petrified Grandmother"
 #spr1 "./MAdunnwic/grandmother_1.tga"
 #spr2 "./MAdunnwic/grandmother_2.tga"
-#gcost 10000
+#gcost 160
 #startdom 4
 #pathcost 40
 #hp 208
@@ -1672,12 +1700,12 @@
 #end
 
 #newmonster 3048
-#name "Ghost Out of Time"
 #copystats 1562
+#name "Ghost Out of Time"
 #clearmagic
 #spr1 "./MAdunnwic/ghost_1.tga"
 #spr2 "./MAdunnwic/ghost_2.tga"
-#gcost 10000
+#gcost 200
 #startdom 2
 #pathcost 20
 #hp 32
@@ -1689,13 +1717,13 @@
 #end
 
 #newmonster 3049
-#name "Sleepwalking Queen"
 #copystats 2085
+#name "Sleepwalking Queen"
 #clearmagic
 #clearweapons
-#spr1 "./MAdunnwic/ghost_1.tga"
-#spr2 "./MAdunnwic/ghost_2.tga"
-#gcost 10000
+#spr1 "./MAdunnwic/queen_1.tga"
+#spr2 "./MAdunnwic/queen_2.tga"
+#gcost 225
 #startdom 2
 #pathcost 20
 #mor 30
@@ -1745,15 +1773,15 @@
 #illusion
 #immortal
 #stealthy 50
-#descr "TO-DO"
+#descr "Dunnish legends tell of a fair maiden who was charmed by a debonair captain when the sea folk invaded their land. The only child of the lord of a wooded holding far from the coast, she was promised to the Prince of the kingdom. Upon meeting the handsome captain, however, so captivated was she that she immediately abandoned her vow and took up with this beguiling newcomer. Alas, he was as faithless as he was charming, and when the sea rushed in to reclaim its people, he followed it and left her sullied and alone. Her spirit broken, she cut her very heart from her breast and cast it into the sea after him. Embittered, she haunts the coasts of Dunnwic to this day, unable to die but unwilling to live."
 #itemslots 3206
 #weapon 63 ---  / Life Drain
 #armor 158 --- / Robes
 #end
 
 #newmonster 3046
-#name "Faithless"
 #copystats 332
+#name "Faithless"
 #clearmagic
 #gcost 0
 #name "Ak'yoghoab"
@@ -1767,7 +1795,7 @@
 #heretic 2
 #incscale 4
 #slime 5
-#descr "TO-DO"
+#descr "Dunnish legends tell of a dashing, handsome captain among the sea folk who charmed the daughter of a local lord. After ruining her honor, the rakish cad fled back to the sea. She cast her heart after him, and it cursed him even though it never found him. He is said to be doomed to forever wander the sea as punishment for his faithless ways."
 #armor 158 --- / Robes
 #end
 
@@ -1863,6 +1891,7 @@ Priests: Moderate."
 #addrecunit 3012
 #addrecunit 3003
 #addrecunit 3013
+#addrecunit 3052
 
 #addreccom 3015
 #addreccom 3017
@@ -1907,6 +1936,9 @@ Priests: Moderate."
 #startunitnbrs1 20
 #startunitnbrs2 10
 
+#hero1 3050
+#hero2 3051
+
 #coastnation
 #likesterr 32
 #hatesterr 4176
@@ -1944,6 +1976,9 @@ Priests: Moderate."
 #addgod 2853
 #addgod 2856
 #addgod 2930
+#addgod 3047
+#addgod 3048
+#addgod 3049
 
 #templepic 13
 
