@@ -9,7 +9,7 @@
 
 #newspell
 #name "Call the Drowned"
-#descr "TO-DO - Amphibious soulless"
+#descr "Beneath the harbor of Dunnwic lie the sunken ruins of the old capital, pulled beneath the sea by the cursed wave so long ago. In these cold waters, no fish swim and the long-drowned folk of Dunnwic shamble through the sunken streets as they once did above. With the proper incantation from the old faith, a Dunnish mage can call up a handful of the cursed Drowned to the surface once more."
 #school 0
 #researchlevel 0
 #path 0 5
@@ -21,14 +21,14 @@
 #nreff 15
 #fatiguecost 500
 #restricted Dunnwic
-#onlyatsite "Sunken Temple"
+#onlyatsite "Sunken Cathedral"
 #end
 
 #newspell
 #name "Mournful Tolling"
-#descr "TO-DO - Amphibious soulless"
+#descr "Beneath the harbor of Dunnwic lie the sunken ruins of the old capital, pulled beneath the sea by the cursed wave so long ago. In these cold waters, no fish swim and the long-drowned folk of Dunnwic shamble through the sunken streets as they once did above. With the proper incantation, a Dunnish mage can set the bell of the sunken cathedral tolling to call up a mob of the Drowned."
 #school 0
-#researchlevel 5
+#researchlevel 4
 #path 0 5
 #path 1 2
 #pathlevel 0 1
@@ -38,12 +38,29 @@
 #nreff 2028
 #fatiguecost 1000
 #restricted Dunnwic
-#onlyatsite "Sunken Temple"
+#onlyatsite "Sunken Cathedral"
 #end
 
 #newspell
 #name "Awaken Drowned Monk"
-#descr "TO-DO - D1W1 amphibious undead that freespawns Drowned underwater plus sacred undead in cap"
+#descr "Beneath the harbor of Dunnwic lie the sunken cathedral of the old faith, pulled beneath the sea by the cursed wave so long ago. With the proper incantation, a Dunnish mage can call up one of the monks who drowned with the city. These cursed souls have more spirit than most of the drowned dead, and they still preach the tenets of their dead religion. While this heresy may shake the faith of the living, it serves to call forth the Drowned to serve a god as dead as they are."
+#school 0
+#researchlevel 5
+#path 0 5
+#path 1 2
+#pathlevel 0 2
+#pathlevel 1 2
+#damage 3035
+#effect 10021
+#nreff 1
+#fatiguecost 1600
+#restricted Dunnwic
+#onlyatsite "Sunken Cathedral"
+#end
+
+#newspell
+#name "Awaken Drowned Abbot"
+#descr "Beneath the harbor of Dunnwic lie the sunken cathedral of the old faith, pulled beneath the sea by the cursed wave so long ago. With the proper incantation, a Dunnish mage can call up one of the abbots who drowned with the city. These cursed souls have far more spirit than most of the drowned dead, and they still preach the tenets of their dead religion. While this heresy may shake the faith of the living, it serves to call forth the Drowned to serve a god as dead as they are."
 #school 0
 #researchlevel 7
 #path 0 5
@@ -51,17 +68,17 @@
 #pathlevel 0 3
 #pathlevel 1 3
 #damage 3035
-#effect 10021
+#effect 10022
 #nreff 1
-#fatiguecost 2500
+#fatiguecost 2100
 #restricted Dunnwic
-#onlyatsite "Sunken Temple"
+#onlyatsite "Sunken Cathedral"
 #end
 
 #newspell
 #copyspell 809  --- / Only coastal, so we copy Trade Wind
 #name "Impression"
-#descr "TO-DO - Mindless sailors that don't count against sailing cap"
+#descr "The caster crushes four pearls and casts their dust into the ocean breeze. It will drift until it falls upon a small boat at sea and compels its crew to seek out the fifth pearl, still held by the caster. When they arrive, the caster swallows the pearl along with the mariners' will, and they will obediently serve so long as they live."
 #school 5
 #researchlevel 0
 #path 0 4
@@ -78,7 +95,7 @@
 #newspell
 #copyspell 809  --- / Only coastal, so we copy Trade Wind
 #name "Greater Impression"
-#descr "TO-DO - Mindless sailors that don't count against sailing cap"
+#descr "The caster crushes a dozen pearls and casts their dust into the ocean breeze. It will drift until it falls upon a large boat at sea and compels its crew to seek out the thirteenth pearl, still held by the caster. When they arrive, the caster swallows the pearl along with the mariners' will, and they will obediently serve so long as they live."
 #school 5
 #researchlevel 5
 #path 0 4
@@ -88,7 +105,7 @@
 #damage -42424
 #effect 10001
 #nreff 2024
-#fatiguecost 1200
+#fatiguecost 1300
 #restricted Dunnwic
 #end
 
@@ -159,7 +176,7 @@
 #firstshape -42421  --- Hybrids
 #monpresentrec -42425
 #nametype 117
-#descr "The lesser hybrids of Dunnwic make up a social class below even the serfs of the old kingdom. Despised and degenerate, they are reluctant to die for their betters, and are unlikely to willing march to war unless whipped into a religious frenzy by priests of the Dream Cult."
+#descr "The lesser hybrids of Dunnwic make up a social class below even the serfs of the old kingdom. While most are reluctant to die for lords that look down on them, priests of the Dream Cult can easily raise eager militias from the zealots among them."
 #end
 
 #newmonster 3004
@@ -463,7 +480,7 @@
 #magicpower 1
 #pooramphibian
 #nametype 117
-#descr "TO-DO - recruit anywhere sacred"
+#descr "Among the humans of Dunnwic, there are relatively few who have glimpsed the Dream Yet To Come. As the generations pass and the stars move towards their inevitable conjunction, however, their numbers continue to grow. Sensitive to the Void, their strength waxes and wanes with the tide, the phase of the moon, and countless other, more obscure mystical signs."
 #weapon 3 ---  / Trident
 #armor 158 --- / Robes
 #armor 121 --- / Leather Hood
@@ -496,7 +513,7 @@
 #magicbeing
 #poormagicleader
 #nametype 117
-#descr "TO-DO - cap only sacred"
+#descr "From time to time, a star child is born who is more closely attuned to the Void. Their minds are caught in a liminal state - forever awake in this world but also immersed in the Dream Yet To Come. In recognition of their blessed nature, the Dreaming Cult arms them with tridents forged from the scant stock of meteorite steel remaining of what was brought from R'lyeh. Closely bound to the Void, these Dreamers' strength waxes and wanes with the tide, the phase of the moon, and countless other, more obscure mystical signs."
 #weapon 642 ---  / Meteorite Trident
 #armor 158 --- / Robes
 #armor 121 --- / Leather Hood
@@ -967,11 +984,12 @@
 #scalewalls
 #ethereal
 #float
+#magicpower 1
 #batstartsum1d6 1576
 #holy
 #nametype 117
 #montag 42425
-#descr "TO-DO"
+#descr "The Prophet of the Stirring Dreamer was once one of the Invisible Lighthouse's most clever students. Now existing halfway in this world and halfway within the Dream Yet To Come, this shadowy Assassin will surely bring death and madness to the enemies of the faith."
 #weapon 86 ---  / Mindblast
 #weapon 10 ---  / Falchion
 #weapon 10 ---  / Falchion
@@ -1009,7 +1027,7 @@
 #holy
 #nametype 117
 #montag 42425
-#descr "TO-DO"
+#descr "The Prophet of the Stirring Dreamer was once one of Dunnwic's many ship's captains. Possessed of an uncanny military genius and masterful naval training, the Admiral of the Dunnish fleet will surely bring the enemies of the faith to their knees."
 #weapon 311 ---  / Mindblast
 #weapon 10 ---  / Falchion
 #armor 210 --- / Meteorite Cuirass
@@ -1053,7 +1071,7 @@
 #holy
 #nametype 117
 #montag 42425
-#descr "TO-DO"
+#descr "The Prophet of the Stirring Dreamer presides over the Shrine and all of the Dreaming Cult. Possessed of unnatural charm and drawing the mad and startouched to his side, he will surely herald the triumph of the Dreamer."
 #weapon 86 ---  / Mindblast
 #weapon 642 ---  / Meteorite Trident
 #armor 158 --- / Robes
@@ -1093,7 +1111,7 @@
 #holy
 #nametype 117
 #montag 42425
-#descr "TO-DO"
+#descr "The Prophet of the Stirring Dreamer saw his destiny written in the night sky. Privy to the secrets of the stars and the void between them, he will surely weaken the walls of reality so Dream Yet To Come might seep in."
 #weapon 86 ---  / Mindblast
 #weapon 642 ---  / Meteorite Trident
 #armor 158 --- / Robes
@@ -1133,7 +1151,7 @@
 #mindless
 #noheal
 #montag 42423 --- / Drowned
-#descr "TO-DO"
+#descr "Corpses of the dead in an unnatural state of reanimation, Drowned differ from other soulless principly in the state of their flesh. If left undisturbed in cold water, the flesh forms into a firm, green-black corpse wax, and will remain in this state without putrifying, and the Drowned may be newly killed or long dead. When bound to a necromancer's will, however, they are just as susceptible to collapse when that will is withdrawn."
 #weapon 92 ---  / Fist
 #end
 
@@ -1168,7 +1186,7 @@
 #mindless
 #noheal
 #montag 42423 --- / Drowned
-#firstshape 3031 --- / Drowned are twice as common as Drowned Warriors
+#descr "Corpses of the dead in an unnatural state of reanimation, Drowned differ from other soulless principly in the state of their flesh. If left undisturbed in cold water, the flesh forms into a firm, green-black corpse wax, and will remain in this state without putrifying, and the Drowned may be newly killed or long dead. When bound to a necromancer's will, however, they are just as susceptible to collapse when that will is withdrawn."
 #descr "TO-DO"
 #weapon 92 ---  / Fist
 #end
@@ -1204,7 +1222,7 @@
 #mindless
 #noheal
 #montag 42423 --- Drowned
-#descr "TO-DO"
+#descr "Corpses of the dead in an unnatural state of reanimation, Drowned differ from other soulless principly in the state of their flesh. If left undisturbed in cold water, the flesh forms into a firm, green-black corpse wax, and will remain in this state without putrifying, and the Drowned may be newly killed or long dead. When bound to a necromancer's will, however, they are just as susceptible to collapse when that will is withdrawn."
 #weapon 1 ---  / Spear
 #armor 32 --- / Rusty Ring Hauberk
 #armor 168 --- / Rotten Shield
@@ -1241,7 +1259,7 @@
 #mindless
 #noheal
 #montag 42423 --- / Drowned
-#descr "TO-DO"
+#descr "Corpses of the dead in an unnatural state of reanimation, Drowned differ from other soulless principly in the state of their flesh. If left undisturbed in cold water, the flesh forms into a firm, green-black corpse wax, and will remain in this state without putrifying, and the Drowned may be newly killed or long dead. When bound to a necromancer's will, however, they are just as susceptible to collapse when that will is withdrawn."
 #weapon 10 ---  / Falchion
 #armor 31 --- / Rusty Scale Hauberk
 #armor 168 --- / Rotten Shield
@@ -1255,7 +1273,7 @@
 #hp 21
 #size 2
 #prot 2
-#mr 15
+#mr 14
 #mor 15
 #str 12
 #att 12
@@ -1272,18 +1290,16 @@
 #undead
 #amphibian
 #neednoteat
-#holy
 #voidsanity 5
 #magicskill 5 1
 #magicskill 2 1
 #descr "TO-DO - homeshape; domsummons various Drowned and Restless Dreamers"
 #weapon 92 ---  / Fist
 #armor 158 --- / Robes
-#domsummon -42423  --- / Various Drowned
-#domsummon2 3031  --- / Bog-standard Drowned
-#domsummon20 3038  --- / Restless Dreamers
-#domsummon20 3038  --- / Restless Dreamers
+#domsummon 3031  --- / Bog-standard Drowned
+#domsummon2 -42423  --- / Various Drowned
 #foreignshape 3036
+-- #prophetshape Dreaming Abbot (home)
 #end
 
 #newmonster 3036
@@ -1294,7 +1310,7 @@
 #hp 21
 #size 2
 #prot 2
-#mr 15
+#mr 14
 #mor 15
 #str 12
 #att 12
@@ -1312,19 +1328,96 @@
 #amphibian
 #neednoteat
 #heretic 1
-#holy
 #voidsanity 5
 #magicskill 5 1
 #magicskill 2 1
 #descr "TO-DO - foreign shape; domsummons various Drowned but only underwater"
 #weapon 92 ---  / Fist
 #armor 158 --- / Robes
-#domsummon 3037  --- / Drowned Stubs; these will only live long enough to become Drowned underwater
+#domsummon2 3037  --- / Drowned Stubs; these will only live long enough to become Drowned underwater
 #homeshape 3035
+-- #prophetshape Dreaming Abbot (foreign)
+#end
+
+
+#newmonster 3054
+#name "Drowned Abbot"
+#spr1 "./MAdunnwic/abbot_1.tga"
+#spr2 "./MAdunnwic/abbot_2.tga"
+#gcost 0
+#hp 25
+#size 2
+#prot 2
+#mr 15
+#mor 16
+#str 12
+#att 12
+#def 12
+#prec 10
+#enc 0
+#mapmove 3
+#ap 8
+#maxage 1000
+#coldres 15
+#poisonres 25
+#okleader
+#okundeadleader
+#undead
+#amphibian
+#neednoteat
+#voidsanity 5
+#magicskill 5 1
+#magicskill 2 1
+#descr "TO-DO - homeshape; domsummons various Drowned and Restless Dreamers"
+#weapon 92 ---  / Fist
+#armor 158 --- / Robes
+#domsummon -42423  --- / Various Drowned
+#domsummon2 3031  --- / Bog-standard Drowned
+#domsummon20 3033  --- / Drowned Warriors
+#domsummon20 3034  --- / Drowned Warriors
+#foreignshape 3055
+-- #prophetshape Dreaming Abbot (home)
+#end
+
+#newmonster 3055
+#name "Drowned Abbot"
+#spr1 "./MAdunnwic/abbot_1.tga"
+#spr2 "./MAdunnwic/abbot_2.tga"
+#gcost 0
+#hp 25
+#size 2
+#prot 2
+#mr 15
+#mor 16
+#str 12
+#att 12
+#def 12
+#prec 10
+#enc 0
+#mapmove 3
+#ap 8
+#maxage 1000
+#coldres 15
+#poisonres 25
+#okleader
+#okundeadleader
+#undead
+#amphibian
+#neednoteat
+#heretic 2
+#voidsanity 5
+#magicskill 5 2
+#magicskill 2 2
+#descr "TO-DO - foreign shape; domsummons various Drowned but only underwater"
+#weapon 92 ---  / Fist
+#armor 158 --- / Robes
+#domsummon 3037  --- / Drowned Stubs; these will only live long enough to become Drowned underwater
+#homeshape 3054
+-- #prophetshape Dreaming Abbot (foreign)
 #end
 
 #newmonster 3037
-#name "Drowned Stub"
+#name "Drowned (underwater only)"
 #spr1 "./MAdunnwic/drowned1_1.tga"
 #spr2 "./MAdunnwic/drowned1_2.tga"
 #gcost 0
@@ -1354,7 +1447,7 @@
 #mindless
 #noheal
 #watershape 3031
-#descr "Stub unit that's supposed to change into Drowned if summoned in water, or die if summoned on land."
+#descr "If summoned underwater, this becomes Drowned; on land it dies instead."
 #weapon 92 ---  / Fist
 #end
 
@@ -1389,7 +1482,7 @@
 #noheal
 #holy
 #magicpower 1
-#descr "TO-DO"
+#descr "As the Dream Yet To Come draws near, it begins to reshape the world around it. Perhaps the most ominious sign of this is when even the restless dead stir within it. Enthralled by the whispers of the Dream, these cursed corpses need guidance from a more materially-minded being, lest they wander off following sights only they can see. Their spirits filled by the Void, these Dreamers' strength waxes and wanes with the tide, the phase of the moon, and countless other, more obscure mystical signs."
 #weapon 3 ---  / Trident
 #armor 158 --- / Robes
 #armor 121 --- / Leather Hood
@@ -1421,7 +1514,7 @@
 #sailing 2 2
 #nametype 102
 #montag 42424 --- Enthralled mariner
-#descr "TO-DO - doesn't count against sailing caps"
+#descr "This mariner has had his will broken and bound to a mage. Without magical guidance, he will eventually forget to breathe, but so long as he has his master's will nearby to substitute for his own, he will serve unflinchingly as both warrior and ship's crew."
 #weapon 3 ---  / Trident
 #weapon 263 ---  / Net
 #armor 10 --- / Leather Hauberk
@@ -1452,7 +1545,7 @@
 #sailing 2 2
 #nametype 102
 #montag 42424 --- Enthralled mariner
-#descr "TO-DO - doesn't count against sailing caps"
+#descr "This mariner has had his will broken and bound to a mage. Without magical guidance, he will eventually forget to breathe, but so long as he has his master's will nearby to substitute for his own, he will serve unflinchingly as both warrior and ship's crew."
 #weapon 253 ---  / Hatchet
 #weapon 452 ---  / Harpoon
 #armor 10 --- / Leather Hauberk
@@ -1483,7 +1576,7 @@
 #sailing 2 2
 #nametype 102
 #montag 42424 --- Enthralled mariner
-#descr "TO-DO - doesn't count against sailing caps"
+#descr "This mariner has had his will broken and bound to a mage. Without magical guidance, he will eventually forget to breathe, but so long as he has his master's will nearby to substitute for his own, he will serve unflinchingly as both warrior and ship's crew."
 #weapon 10 ---  / Falchion
 #weapon 23 ---  / Short Bow
 #armor 10 --- / Leather Hauberk
@@ -1501,7 +1594,7 @@
 #rcost 2
 #firstshape -42421  --- Hybrids
 #nametype 117
-#descr "TO-DO - UW fort rec; various standard hybrids"
+#descr "Above the waves, lesser hybrids make up a social class below even the serfs of the old kingdom. However, as Dunnwic has expanded into the deep, these hybrids have found a place where they function as freemen. Hybrid levies have poor or no equipment and minimal training, but will fight ferociously to defend their newfound home in the sea."
 #end
 
 #newmonster 3043
@@ -1526,7 +1619,7 @@
 #okleader
 #poormagicleader
 #nametype 117
-#descr "TO-DO - UW fort rec"
+#descr "As the star children have little desire to return beneath a sea that hides the sky from them, the lesser hybrids who dwell on the ocean floor are largely left to rule themselves. De facto authority is delegated to the Sergants of the coastal Guard, who have no noble title or particular tactical brilliance."
 #weapon 513 ---  / Kopesh
 #weapon 85 ---  / Tentacle
 #armor 6 --- / Ring Mail Cuirass
@@ -1561,6 +1654,7 @@
 #okmagicleader
 #magicskill 8 1
 #fixedresearch 2
+#magicpower 2
 #holy
 #slowrec
 #nametype 117
@@ -1603,6 +1697,7 @@
 #okmagicleader
 #magicskill 8 1
 #fixedresearch 2
+#magicpower 2
 #holy
 #slowrec
 #nametype 117
@@ -1643,7 +1738,7 @@
 #poorleader
 #poormagicleader
 #nametype 117
-#descr "TO-DO - UW fort rec, heretic"
+#descr "As the star children have little desire to return beneath a sea that hides the sky from them, the lesser hybrids who dwell on the ocean floor are largely left to themselves. Some among them with talent for magic have taken up old traditions of Dunnwic, and have carved out a crude druidic tradition that warns against the Dream Yet To Come. They have no formal training, and contribute little to formal magical study."
 #weapon 85 ---  / Tentacle
 #armor 158 --- / Robes
 #end
@@ -1651,7 +1746,7 @@
 
 --- Pretenders
 
-#newmonster 3047
+#newmonster 3049
 #name "Petrified Grandmother"
 #spr1 "./MAdunnwic/grandmother_1.tga"
 #spr2 "./MAdunnwic/grandmother_2.tga"
@@ -1693,13 +1788,13 @@
 #poorleader 
 #magicskill 4 3
 #nametype 117
-#descr "TO-DO"
+#descr "Before the star fell, the deeps were the realm of the aboleth. They rose from the darkest waters and spread their tentacles across the ocean, but when they rose from the abysal depths some were left below. Among these was a great Polypal Grandmother whose elder offspring took her spawn and abandoned her in the abyss to starve. The still, deep waters where her looming corpse stood sheltered her as her trunk and branches hardened and were gradually replaced with basalt leeched from the heavy waters. Her mind lingered in the Void, however, and gradually found its way back to the empty shell. Enlightened by this obscure pilgrimage, she sent Dreams to a nearby colony of Void-touched beings and began to plot her arrival amongst them when the stars were right..."
 #weapon 86 ---  / Mind Blast
 #weapon 86 ---  / Mind Blast
 #weapon 86 ---  / Mind Blast
 #end
 
-#newmonster 3048
+#newmonster 3050
 #copystats 1562
 #name "Ghost Out of Time"
 #clearmagic
@@ -1713,12 +1808,13 @@
 #fear 10
 #magicskill 4 1
 #nametype 117
-#descr "TO-DO"
+#descr "This strange being is the spectre of a dead Starspawn that has found its way back to this realm. Wandering through the Void for aeons after the rise and fall of R'lyeh, its mind has been reshaped by the Dream until little else remained. By strange and unknowable means, this distorted wisdom has guided it through the Void to a time before its birth, and shown it a lost and yearning people ready to awaken into the Dream Yet To Come."
 #end
 
-#newmonster 3049
+#newmonster 3051
 #copystats 2085
 #name "Sleepwalking Queen"
+#fixedname "Hydra"
 #clearmagic
 #clearweapons
 #spr1 "./MAdunnwic/queen_1.tga"
@@ -1736,15 +1832,97 @@
 #weapon 481 ---  / Touch of Madness
 #weapon 20 ---  / Bite
 #nametype 117
-#descr "TO-DO"
+#descr "When the star fell, the basalt towers of Atlantis fell with them. The greatest of the Basalt Queens sought refuge in the depths and sought to sleep in the light of a crystal shard until the seas were calmer. But her sleep was too deep, and a Dream from the Void found its way into her mind. With the Dream drifting before her, she slowly shambles forth from the depths even as her sleep grows more troubled and she struggles vainly to waker herself..."
+#end
+
+#newmonster 3052
+#name "Drowned Bishop"
+#spr1 "./MAdunnwic/bishop_1.tga"
+#spr2 "./MAdunnwic/bishop_2.tga"
+#gcost 225
+#startdom 2
+#pathcost 40
+#hp 28
+#size 2
+#prot 2
+#mr 18
+#mor 30
+#str 12
+#att 12
+#def 12
+#prec 10
+#enc 0
+#mapmove 3
+#ap 12
+#maxage 1000
+#coldres 15
+#poisonres 25
+#fear 5
+#goodleader
+#expertundeadleader
+#undead
+#amphibian
+#neednoteat
+#voidsanity 20
+#batstartsum2d6 42423
+#batstartsum1d6 3038
+#magicskill 5 1
+#magicskill 2 1
+#descr "When the sea pulled the faithful of Dunnwic into its cold embrace to save them from the illithids, they did not die, exactly. Life in the sunken city continued much as it had on the shore above, though the Drowned inhabitants for the most part had little will and acted out their old lives from cursed habit. The Bishop of the sunken cathedral did likewise for many years, but gradually he began to remember himself. As he did, he heard the loud minds of the star children above him, and felt the broken Dream that troubled them. Feeling a strange fellowship with these invaders who had suffered at his god's hand as surely as he had, he began to plot his revenge. And of course, the only way to kill a god is to first become one. Attended by his apostate Drowned clergy and joined with the hybrids above by the Void-spawned Dream that haunted all of them, he will lead his dead and dreaming cohort to tear down all temples but his own."
+#weapon 92 ---  / Fist
+#armor 158 --- / Robes
+#domsummon 42423  --- / Assorted Drowned
+#domsummon 42423  --- / Assorted Drowned
+#domsummon 3038  --- / Restless Dreamers
+#foreignshape 3053
+#end
+
+#newmonster 3053
+#name "Drowned Bishop"
+#spr1 "./MAdunnwic/bishop_1.tga"
+#spr2 "./MAdunnwic/bishop_2.tga"
+#gcost 225
+#startdom 2
+#pathcost 40
+#hp 28
+#size 2
+#prot 2
+#mr 18
+#mor 30
+#str 12
+#att 12
+#def 12
+#prec 10
+#enc 0
+#mapmove 3
+#ap 12
+#maxage 1000
+#coldres 15
+#poisonres 25
+#fear 5
+#goodleader
+#expertundeadleader
+#undead
+#amphibian
+#neednoteat
+#voidsanity 20
+#batstartsum3d6 3037
+#magicskill 5 1
+#magicskill 2 1
+#descr "When the sea pulled the faithful of Dunnwic into its cold embrace to save them from the illithids, they did not die, exactly. Life in the sunken city continued much as it had on the shore above, though the Drowned inhabitants for the most part had little will and acted out their old lives from cursed habit. The Bishop of the sunken cathedral did likewise for many years, but gradually he began to remember himself. As he did, he heard the loud minds of the star children above him, and felt the broken Dream that troubled them. Feeling a strange fellowship with these invaders who had suffered at his god's hand as surely as he had, he began to plot his revenge. And of course, the only way to kill a god is to first become one. Attended by his apostate Drowned clergy and joined with the hybrids above by the Void-spawned Dream that haunted all of them, he will lead his dead and dreaming cohort to tear down all temples but his own."
+#weapon 92 ---  / Fist
+#armor 158 --- / Robes
+#domsummon 3037  --- / Drowned Stubs; these will only live long enough to become Drowned underwater
+#domsummon2 3037  --- / Drowned Stubs; these will only live long enough to become Drowned underwater
+#homeshape 3052
 #end
 
 
 --- Heroes
 
-#newmonster 3046
+#newmonster 3047
 #name "Heartless"
-#name "Eva"
+#fixedname "Eva"
 #spr1 "./MAdunnwic/heartless_1.tga"
 #spr2 "./MAdunnwic/heartless_2.tga"
 #gcost 0
@@ -1779,14 +1957,14 @@
 #armor 158 --- / Robes
 #end
 
-#newmonster 3046
+#newmonster 3048
 #copystats 332
 #name "Faithless"
 #clearmagic
 #gcost 0
-#name "Ak'yoghoab"
-#spr1 "./MAdunnwic/heartless_1.tga"
-#spr2 "./MAdunnwic/heartless_2.tga"
+#fixedname "Ak'yoghoab"
+#spr1 "./MAdunnwic/faithless_1.tga"
+#spr2 "./MAdunnwic/faithless_2.tga"
 #magicskill 2 1
 #magicskill 4 3
 #magicskill 6 3
@@ -1856,7 +2034,7 @@
 #level 2
 #rarity 5
 #path 2
-#name "Sunken Temple"
+#name "Sunken Cathedral"
 #gems 5 1
 #end
 
@@ -1882,7 +2060,7 @@ Priests: Moderate."
 #clearsites
 #startsite "Shrine of the Stirring Dreamer"
 #startsite "Invisible Lighthouse"
-#startsite "Sunken Temple"
+#startsite "Sunken Cathedral"
 
 #clearrec
 #addrecunit 3004
@@ -1936,8 +2114,8 @@ Priests: Moderate."
 #startunitnbrs1 20
 #startunitnbrs2 10
 
-#hero1 3050
-#hero2 3051
+#hero1 3047
+#hero2 3048
 
 #coastnation
 #likesterr 32
@@ -1976,9 +2154,10 @@ Priests: Moderate."
 #addgod 2853
 #addgod 2856
 #addgod 2930
-#addgod 3047
-#addgod 3048
 #addgod 3049
+#addgod 3050
+#addgod 3051
+#addgod 3052
 
 #templepic 13
 
