@@ -9,7 +9,7 @@
 
 #newspell
 #name "Call the Drowned"
-#descr "Beneath the harbor of Dunnwic lie the sunken ruins of the old capital, pulled beneath the sea by the cursed wave so long ago. In these cold waters, no fish swim and the long-drowned folk of Dunnwic shamble through the sunken streets as they once did above. With the proper incantation from the old faith, a Dunnish mage can call up a handful of the cursed Drowned to the surface once more."
+#descr "Beneath the harbor of Dunnwic lie the sunken ruins of the old capital, pulled under the sea by the cursed wave so long ago. In these cold waters, no fish swim and the long-drowned folk of Dunnwic shamble through the sunken streets as they once did above. With the proper incantation from the old faith, a Dunnish mage can call up a handful of the cursed Drowned to the surface once more."
 #school 0
 #researchlevel 0
 #path 0 5
@@ -26,7 +26,7 @@
 
 #newspell
 #name "Mournful Tolling"
-#descr "Beneath the harbor of Dunnwic lie the sunken ruins of the old capital, pulled beneath the sea by the cursed wave so long ago. In these cold waters, no fish swim and the long-drowned folk of Dunnwic shamble through the sunken streets as they once did above. With the proper incantation, a Dunnish mage can set the bell of the sunken cathedral tolling to call up a mob of the Drowned."
+#descr "Beneath the harbor of Dunnwic lie the sunken ruins of the old capital, pulled under the sea by the cursed wave so long ago. In these cold waters, no fish swim and the long-drowned folk of Dunnwic shamble through the sunken streets as they once did above. With the proper incantation, a Dunnish mage can set the bell of the sunken cathedral tolling to call up a mob of the Drowned."
 #school 0
 #researchlevel 4
 #path 0 5
@@ -43,7 +43,7 @@
 
 #newspell
 #name "Awaken Drowned Monk"
-#descr "Beneath the harbor of Dunnwic lie the sunken cathedral of the old faith, pulled beneath the sea by the cursed wave so long ago. With the proper incantation, a Dunnish mage can call up one of the monks who drowned with the city. These cursed souls have more spirit than most of the drowned dead, and they still preach the tenets of their dead religion. While this heresy may shake the faith of the living, it serves to call forth the Drowned to serve a god as dead as they are."
+#descr "Beneath the harbor of Dunnwic lie the sunken cathedral of the old faith, pulled under the sea by the cursed wave so long ago. With the proper incantation, a Dunnish mage can call up one of the monks who drowned with the city. These cursed souls have more spirit than most of the drowned dead, and they still preach the tenets of their dead religion. While this heresy may shake the faith of the living, it serves to call forth the Drowned to serve a god as dead as they are."
 #school 0
 #researchlevel 5
 #path 0 5
@@ -53,14 +53,14 @@
 #damage 3035
 #effect 10021
 #nreff 1
-#fatiguecost 1600
+#fatiguecost 1400
 #restricted Dunnwic
 #onlyatsite "Sunken Cathedral"
 #end
 
 #newspell
 #name "Awaken Drowned Abbot"
-#descr "Beneath the harbor of Dunnwic lie the sunken cathedral of the old faith, pulled beneath the sea by the cursed wave so long ago. With the proper incantation, a Dunnish mage can call up one of the abbots who drowned with the city. These cursed souls have far more spirit than most of the drowned dead, and they still preach the tenets of their dead religion. While this heresy may shake the faith of the living, it serves to call forth the Drowned to serve a god as dead as they are."
+#descr "Beneath the harbor of Dunnwic lie the sunken cathedral of the old faith, pulled under the sea by the cursed wave so long ago. With the proper incantation, a Dunnish mage can call up one of the abbots who drowned with the city. These cursed souls have far more spirit than most of the drowned dead, and they still preach the tenets of their dead religion. While this heresy may shake the faith of the living, it serves to call forth the Drowned to serve a god as dead as they are."
 #school 0
 #researchlevel 7
 #path 0 5
@@ -78,7 +78,7 @@
 #newspell
 #copyspell 809  --- / Only coastal, so we copy Trade Wind
 #name "Impression"
-#descr "The caster crushes four pearls and casts their dust into the ocean breeze. It will drift until it falls upon a small boat at sea and compels its crew to seek out the fifth pearl, still held by the caster. When they arrive, the caster swallows the pearl along with the mariners' will, and they will obediently serve so long as they live."
+#descr "The caster crushes four pearls and releases their dust into the ocean breeze. It will drift until it falls upon a small boat at sea and compels its crew to seek out the fifth pearl, still held by the caster. When they arrive, the caster swallows the pearl along with the mariners' will, and they will obediently serve so long as they live."
 #school 5
 #researchlevel 0
 #path 0 4
@@ -95,7 +95,7 @@
 #newspell
 #copyspell 809  --- / Only coastal, so we copy Trade Wind
 #name "Greater Impression"
-#descr "The caster crushes a dozen pearls and casts their dust into the ocean breeze. It will drift until it falls upon a large boat at sea and compels its crew to seek out the thirteenth pearl, still held by the caster. When they arrive, the caster swallows the pearl along with the mariners' will, and they will obediently serve so long as they live."
+#descr "The caster crushes a dozen pearls and releases their dust into the ocean breeze. It will drift until it falls upon a large boat at sea and compels its crew to seek out the thirteenth pearl, still held by the caster. When they arrive, the caster swallows the pearl along with the mariners' will, and they will obediently serve so long as they live."
 #school 5
 #researchlevel 5
 #path 0 4
@@ -1187,7 +1187,6 @@
 #noheal
 #montag 42423 --- / Drowned
 #descr "Corpses of the dead in an unnatural state of reanimation, Drowned differ from other soulless principly in the state of their flesh. If left undisturbed in cold water, the flesh forms into a firm, green-black corpse wax, and will remain in this state without putrifying, and the Drowned may be newly killed or long dead. When bound to a necromancer's will, however, they are just as susceptible to collapse when that will is withdrawn."
-#descr "TO-DO"
 #weapon 92 ---  / Fist
 #end
 
@@ -1293,13 +1292,13 @@
 #voidsanity 5
 #magicskill 5 1
 #magicskill 2 1
-#descr "TO-DO - homeshape; domsummons various Drowned and Restless Dreamers"
+#descr "When the old capital of Dunnwic was pulled beneath the waves, its cathedral and all the priests within drowned. The waters grew unnaturally cold, however, and strange magics flowed with the currents. Gradually, the Drowned of the dead city stirred, and their clergy stirred with them. Perhaps they were stronger willed, or perhaps their dead god's power lingered on in them, but in any case, they kept their will and wits. While they spend their endless days tending to the rote and meaningless religious needs of their dead fellows, they can be called to the surface and compelled to serve the Dreaming Cult. They do so grudgingly, however, and continue to serve their long-dead god even as they lend thier aid to another cause. So long as they remain close to the old city's sunken ruins, they can easily call forth many of their dead brothern."
 #weapon 92 ---  / Fist
 #armor 158 --- / Robes
 #domsummon 3031  --- / Bog-standard Drowned
 #domsummon2 -42423  --- / Various Drowned
 #foreignshape 3036
--- #prophetshape Dreaming Abbot (home)
+#prophetshape 3054
 #end
 
 #newmonster 3036
@@ -1331,12 +1330,12 @@
 #voidsanity 5
 #magicskill 5 1
 #magicskill 2 1
-#descr "TO-DO - foreign shape; domsummons various Drowned but only underwater"
+#descr "When the old capital of Dunnwic was pulled beneath the waves, its cathedral and all the priests within drowned. The waters grew unnaturally cold, however, and strange magics flowed with the currents. Gradually, the Drowned of the dead city stirred, and their clergy stirred with them. Perhaps they were stronger willed, or perhaps their dead god's power lingered on in them, but in any case, they kept their will and wits. While they spend their endless days tending to the rote and meaningless religious needs of their dead fellows, they can be called to the surface and compelled to serve the Dreaming Cult. They do so grudgingly, however, and continue to serve their long-dead god even as they call forth their brethern to fight for another cause. So long as they remain below the waves, they can call forth a modest number of Drowned souls."
 #weapon 92 ---  / Fist
 #armor 158 --- / Robes
 #domsummon2 3037  --- / Drowned Stubs; these will only live long enough to become Drowned underwater
 #homeshape 3035
--- #prophetshape Dreaming Abbot (foreign)
+#prophetshape 3055
 #end
 
 
@@ -1366,9 +1365,9 @@
 #amphibian
 #neednoteat
 #voidsanity 5
-#magicskill 5 1
-#magicskill 2 1
-#descr "TO-DO - homeshape; domsummons various Drowned and Restless Dreamers"
+#magicskill 5 2
+#magicskill 2 2
+#descr "When the old capital of Dunnwic was pulled beneath the waves, its cathedral and all the priests within drowned. The waters grew unnaturally cold, however, and strange magics flowed with the currents. Gradually, the Drowned of the dead city stirred, and their clergy stirred with them. Perhaps they were stronger willed, or perhaps their dead god's power lingered on in them, but in any case, they kept their will and wits. It is harder to compel a Drowned Abbot to serve another cause than their lesser brethern, and they cause noticably more relgious discord. Within the environs of the old city's sunken ruins, they can easily call forth many of their dead brothern."
 #weapon 92 ---  / Fist
 #armor 158 --- / Robes
 #domsummon -42423  --- / Various Drowned
@@ -1376,7 +1375,6 @@
 #domsummon20 3033  --- / Drowned Warriors
 #domsummon20 3034  --- / Drowned Warriors
 #foreignshape 3055
--- #prophetshape Dreaming Abbot (home)
 #end
 
 #newmonster 3055
@@ -1408,12 +1406,11 @@
 #voidsanity 5
 #magicskill 5 2
 #magicskill 2 2
-#descr "TO-DO - foreign shape; domsummons various Drowned but only underwater"
+#descr "When the old capital of Dunnwic was pulled beneath the waves, its cathedral and all the priests within drowned. The waters grew unnaturally cold, however, and strange magics flowed with the currents. Gradually, the Drowned of the dead city stirred, and their clergy stirred with them. Perhaps they were stronger willed, or perhaps their dead god's power lingered on in them, but in any case, they kept their will and wits. It is harder to compel a Drowned Abbot to serve another cause than their lesser brethern, and they cause noticably more relgious discord. So long as they remain below the waves, they can call forth a modest number of Drowned souls."
 #weapon 92 ---  / Fist
 #armor 158 --- / Robes
 #domsummon 3037  --- / Drowned Stubs; these will only live long enough to become Drowned underwater
 #homeshape 3054
--- #prophetshape Dreaming Abbot (foreign)
 #end
 
 #newmonster 3037
@@ -1738,7 +1735,7 @@
 #poorleader
 #poormagicleader
 #nametype 117
-#descr "As the star children have little desire to return beneath a sea that hides the sky from them, the lesser hybrids who dwell on the ocean floor are largely left to themselves. Some among them with talent for magic have taken up old traditions of Dunnwic, and have carved out a crude druidic tradition that warns against the Dream Yet To Come. They have no formal training, and contribute little to formal magical study."
+#descr "As the star children have little desire to return beneath a sea that hides the sky from them, the lesser hybrids who dwell on the ocean floor are largely left to themselves. Some among them with talent for magic have taken up old traditions of Dunnwic, and have carved out a crude druidic heresy that warns against the Dream Yet To Come. They have no formal training, and contribute little to formal magical study."
 #weapon 85 ---  / Tentacle
 #armor 158 --- / Robes
 #end
@@ -1832,7 +1829,7 @@
 #weapon 481 ---  / Touch of Madness
 #weapon 20 ---  / Bite
 #nametype 117
-#descr "When the star fell, the basalt towers of Atlantis fell with them. The greatest of the Basalt Queens sought refuge in the depths and sought to sleep in the light of a crystal shard until the seas were calmer. But her sleep was too deep, and a Dream from the Void found its way into her mind. With the Dream drifting before her, she slowly shambles forth from the depths even as her sleep grows more troubled and she struggles vainly to waker herself..."
+#descr "When the star fell, the basalt towers of Atlantis fell with them. The greatest of the Basalt Queens sought refuge in the depths to sleep in the light of a crystal shard until the seas were calmer. But her sleep was too deep, and a Dream from the Void found its way into her mind. With the Dream drifting before her, she slowly shambles forth from the depths even as her sleep grows more troubled and she struggles vainly to waker herself..."
 #end
 
 #newmonster 3052
@@ -1951,7 +1948,7 @@
 #illusion
 #immortal
 #stealthy 50
-#descr "Dunnish legends tell of a fair maiden who was charmed by a debonair captain when the sea folk invaded their land. The only child of the lord of a wooded holding far from the coast, she was promised to the Prince of the kingdom. Upon meeting the handsome captain, however, so captivated was she that she immediately abandoned her vow and took up with this beguiling newcomer. Alas, he was as faithless as he was charming, and when the sea rushed in to reclaim its people, he followed it and left her sullied and alone. Her spirit broken, she cut her very heart from her breast and cast it into the sea after him. Embittered, she haunts the coasts of Dunnwic to this day, unable to die but unwilling to live."
+#descr "Dunnish legends tell of a fair maiden who was charmed by a debonair captain when the sea folk invaded their land. The only child of an inland sylvan lord, she had been promised to the Prince of the kingdom. Upon meeting the handsome captain, however, so captivated was she that she immediately abandoned her vow and took up with this beguiling newcomer. Alas, he was as faithless as he was charming, and when the sea rushed in to reclaim its people, he followed it and left her sullied and alone. Her spirit broken, she cut her very heart from her breast and cast it into the sea after him. Embittered, she haunts the coasts of Dunnwic to this day, unable to die but unwilling to live."
 #itemslots 3206
 #weapon 63 ---  / Life Drain
 #armor 158 --- / Robes
